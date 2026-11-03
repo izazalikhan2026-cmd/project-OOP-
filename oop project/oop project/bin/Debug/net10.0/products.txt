@@ -1,0 +1,16 @@
+laptop
+Electronics
+120000
+5
+mouse
+Accessories
+1500
+20
+keyboard
+accessories
+3000
+10
+iphone 18 pro max
+electronics 
+500000
+50

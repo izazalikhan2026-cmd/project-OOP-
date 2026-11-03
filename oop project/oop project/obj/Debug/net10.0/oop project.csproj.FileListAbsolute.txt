@@ -1,0 +1,32 @@
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\obj\Debug\net10.0\oop project.GeneratedMSBuildEditorConfig.editorconfig
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\obj\Debug\net10.0\oop project.AssemblyInfoInputs.cache
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\obj\Debug\net10.0\oop project.AssemblyInfo.cs
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\obj\Debug\net10.0\oop project.csproj.CoreCompileInputs.cache
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\obj\Debug\net10.0\oop project.sourcelink.json
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\bin\Debug\net10.0\oop project.exe
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\bin\Debug\net10.0\oop project.deps.json
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\bin\Debug\net10.0\oop project.runtimeconfig.json
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\bin\Debug\net10.0\oop project.dll
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\bin\Debug\net10.0\oop project.pdb
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\obj\Debug\net10.0\oop project.dll
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\obj\Debug\net10.0\refint\oop project.dll
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\obj\Debug\net10.0\oop project.pdb
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\obj\Debug\net10.0\oop project.genruntimeconfig.cache
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\obj\Debug\net10.0\ref\oop project.dll
+C:\cs semester 2nd\OOPS\C#\oop project\oop project\oop project\obj\Debug\net10.0\oop proj.A2A9CBFC.Up2Date
+C:\Projects\oop project\oop project\bin\Debug\net10.0\oop project.exe
+C:\Projects\oop project\oop project\bin\Debug\net10.0\oop project.deps.json
+C:\Projects\oop project\oop project\bin\Debug\net10.0\oop project.runtimeconfig.json
+C:\Projects\oop project\oop project\bin\Debug\net10.0\oop project.dll
+C:\Projects\oop project\oop project\bin\Debug\net10.0\oop project.pdb
+C:\Projects\oop project\oop project\obj\Debug\net10.0\oop project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\oop project\oop project\obj\Debug\net10.0\oop project.AssemblyInfoInputs.cache
+C:\Projects\oop project\oop project\obj\Debug\net10.0\oop project.AssemblyInfo.cs
+C:\Projects\oop project\oop project\obj\Debug\net10.0\oop project.csproj.CoreCompileInputs.cache
+C:\Projects\oop project\oop project\obj\Debug\net10.0\oop project.sourcelink.json
+C:\Projects\oop project\oop project\obj\Debug\net10.0\oop project.dll
+C:\Projects\oop project\oop project\obj\Debug\net10.0\refint\oop project.dll
+C:\Projects\oop project\oop project\obj\Debug\net10.0\oop project.pdb
+C:\Projects\oop project\oop project\obj\Debug\net10.0\oop project.genruntimeconfig.cache
+C:\Projects\oop project\oop project\obj\Debug\net10.0\ref\oop project.dll
+C:\Projects\oop project\oop project\obj\Debug\net10.0\oop proj.A2A9CBFC.Up2Date
