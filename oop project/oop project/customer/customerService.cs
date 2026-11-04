@@ -14,7 +14,7 @@ namespace oop_project.customer
         {
             foreach (var p in products)
             {
-                if (p.Name.Equals(productName, StringComparison.OrdinalIgnoreCase))
+                if (p.Name == productName)
                 {
                     if (qty <= p.Quantity)
                     {

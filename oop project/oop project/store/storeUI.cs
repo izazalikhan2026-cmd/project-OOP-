@@ -60,7 +60,7 @@ namespace oop_project.store
                 }
                 else if (choice == 3)
                 {
-                    prodUi.SearchProductPrompt(prodService);
+                    prodUi.FilterBycategory(prodService);
                 }
                 else if (choice == 4)
                 {

@@ -58,22 +58,22 @@ namespace oop_project.product
         }
 
        
-        public void SearchProductPrompt(productService prodService)
+        public void FilterBycategory(productService prodService)
         {
             Console.Clear();
-            Console.WriteLine("----------- SEARCH PRODUCT -----------");
-            Console.Write("Enter product name to search: ");
-            string searchName = Console.ReadLine();
+            Console.WriteLine("----------- SEARCH PRODUCT by CATAGORY -----------");
+            Console.Write("Enter product category to filter: ");
+            string searchcategory = Console.ReadLine();
             bool found = false;
 
             foreach (var p in prodService.Products)
             {
-                if (p.Name.Equals(searchName, StringComparison.OrdinalIgnoreCase))
+                if (p.Category == searchcategory && p.Price >=500)
                 {
                     found = true;
                     Console.WriteLine("\n****** Product Found ******");
-                    Console.WriteLine($"Name: {p.Name}");
-                    Console.WriteLine($"Category: {p.Category}");
+                    Console.WriteLine($"Name: {p.Category}");
+                    Console.WriteLine($"Category: {p.Name}");
                     Console.WriteLine($"Price: {p.Price}");
                     Console.WriteLine($"Quantity: {p.Quantity}");
                 }
@@ -88,7 +88,6 @@ namespace oop_project.product
             Console.ReadKey();
         }
 
-        
         public void UpdateProductPrompt(productService prodService)
         {
             Console.Clear();

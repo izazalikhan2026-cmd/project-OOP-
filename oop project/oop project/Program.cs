@@ -1,5 +1,6 @@
 ﻿using oop_project.product;
 using oop_project.store;
+using oop_project.customer;
 
 namespace oop_project
 {

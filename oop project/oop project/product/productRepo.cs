@@ -27,7 +27,12 @@ namespace oop_project.product
             List<productModel> products = new List<productModel>();
             if (!File.Exists(filePath))
             {
-                products.Add(new productModel("laptop", "Electronics", 120000, 5));
+                products.Add(new productModel("laptop", "Electronics", 150000, 5));
+                products.Add(new productModel("mobile", "Electronics", 200000, 10));
+                products.Add(new productModel("iphhone", "Electronics", 10000, 15));
+                products.Add(new productModel("samsung", "Electronics", 50000, 18));
+                products.Add(new productModel("infinix", "Electronics", 80000, 20));
+
                 products.Add(new productModel("mouse", "Accessories", 1500, 20));
                 products.Add(new productModel("keyboard", "accessories", 3000, 10));
                 return products;

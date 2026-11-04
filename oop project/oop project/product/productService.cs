@@ -4,9 +4,9 @@ using System.Text;
 
 namespace oop_project.product
 {
-   public class productService
+    public class productService
     {
-        public  productRepo repo = new productRepo();
+        public productRepo repo = new productRepo();
         public List<productModel> Products;
 
         public productService()
@@ -24,7 +24,7 @@ namespace oop_project.product
         {
             foreach (var p in Products)
             {
-                if (p.Name.Equals(target, StringComparison.OrdinalIgnoreCase))
+                if (p.Name == target)
                 {
                     p.Name = name;
                     p.Category = category;
@@ -35,19 +35,33 @@ namespace oop_project.product
                 }
             }
         }
+       
 
         public bool DeleteProduct(string target)
         {
-            productModel toRemove = Products.Find(p => p.Name.Equals(target, StringComparison.OrdinalIgnoreCase));
+           
+            productModel toRemove = null;
+
+           
+            for (int i = 0; i < Products.Count; i++)
+            {
+               
+                if (Products[i].Name.ToLower() == target.ToLower())
+                {
+                    toRemove = Products[i];
+                    break; 
+                }
+            }
+
+            
             if (toRemove != null)
             {
-                Products.Remove(toRemove);
-                repo.SaveProducts(Products);
-                return true;
+                Products.Remove(toRemove);       
+                repo.SaveProducts(Products);    
+                return true;                     
             }
-            return false;
+
+            return false; 
         }
     }
 }
-    
-
